@@ -1,3 +1,4 @@
 # Collecting my CodinGame Solutions
 
-* [Community Puzzle - Balanced ternary computer: encode](balanced%20ternary%20encode/) - 29.09.2016
+* [Community Puzzle - Balanced ternary computer: encode](balanced-ternary-encode/)
+* [Bot Programming - Coders Strike Back](coders-strike-back/)
