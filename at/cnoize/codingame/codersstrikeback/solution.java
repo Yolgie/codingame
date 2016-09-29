@@ -1,3 +1,9 @@
+package at.cnoize.codingame.codersstrikeback;
+
+import java.util.*;
+import java.io.*;
+import java.math.*;
+
 /**
  * CodinGame Bot Programming - Coders Strike Back
  * Copyright (C) 2016 Matthias 'Yolgie' Holzinger {@literal <yolgie@cnoize.at>}
@@ -16,15 +22,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import java.util.*;
-import java.io.*;
-import java.math.*;
-
-/**
- * This code automatically collects game data in an infinite loop.
- * It uses the standard input to place data into the game variables such as x and y.
- * YOU DO NOT NEED TO MODIFY THE INITIALIZATION OF THE GAME VARIABLES.
- **/
 class Player {
 
     public static void main(String args[]) {

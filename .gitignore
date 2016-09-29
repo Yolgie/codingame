@@ -23,3 +23,7 @@ Session.vim
 *~
 # auto-generated tag files
 tags
+
+## Intellij
+.idea
+crispy-chainsaw.iml

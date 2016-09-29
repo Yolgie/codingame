@@ -1,3 +1,7 @@
+package at.cnoize.codingame.balancedternaryencode;
+
+import java.util.Scanner;
+
 /**
  * CodinGame Community Puzzle - Balanced ternary computer: encode
  * Copyright (C) 2016 Matthias 'Yolgie' Holzinger {@literal <yolgie@cnoize.at>}
@@ -15,11 +19,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-    
-import java.util.*;
-import java.io.*;
-import java.math.*;
-
 class Solution {
 
     public static void main(String args[]) {
@@ -27,12 +26,12 @@ class Solution {
         int DEC = in.nextInt();
         int remainder;
         boolean negative = false;
-        
+
         if (DEC < 0) {
             negative = true;
-            DEC = DEC*(-1);
+            DEC = DEC * (-1);
         }
-        
+
         StringBuilder result = new StringBuilder();
 
         if (DEC == 0) {
@@ -40,9 +39,9 @@ class Solution {
         }
 
         while (DEC > 0) {
-            remainder = DEC%3;
-            DEC = DEC/3;
-            
+            remainder = DEC % 3;
+            DEC = DEC / 3;
+
             switch (remainder) {
                 case 0:
                     result.append(0);
@@ -64,7 +63,7 @@ class Solution {
                     break;
             }
         }
-        
+
         System.out.println(result.reverse().toString());
     }
 }
