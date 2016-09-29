@@ -1,4 +1,5 @@
 # Collecting my CodinGame Solutions
 
-* [Community Puzzle - Balanced ternary computer: encode](balanced-ternary-encode/)
-* [Bot Programming - Coders Strike Back](coders-strike-back/)
+* [Community Puzzle - Balanced ternary computer: encode](at/cnoize/codingame/balancedternaryencode/)
+* [Bot Programming - Coders Strike Back](at/cnoize/codingame/codersstrikeback/)
+* [Classic Puzzle Easy - Chuck Norris](at/cnoize/codingame/chucknorris/)

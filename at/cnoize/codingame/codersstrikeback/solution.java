@@ -1,8 +1,6 @@
 package at.cnoize.codingame.codersstrikeback;
 
-import java.util.*;
-import java.io.*;
-import java.math.*;
+import java.util.Scanner;
 
 /**
  * CodinGame Bot Programming - Coders Strike Back
