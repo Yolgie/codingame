@@ -25,12 +25,15 @@ class Player {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
 
+        Point currentPosition;
+        Point nextCheckpoint;
+
         // game loop
         while (true) {
-            int x = in.nextInt(); // x position of your pod
-            int y = in.nextInt(); // y position of your pod
-            int nextCheckpointX = in.nextInt(); // x position of the next check point
-            int nextCheckpointY = in.nextInt(); // y position of the next check point
+            currentPosition = new Point(in.nextInt(), in.nextInt());
+            nextCheckpoint = new Point(in.nextInt(), in.nextInt());
+
+            int thrust = 90;
 
             // Write an action using System.out.println()
             // To debug: System.err.println("Debug messages...");
@@ -39,9 +42,30 @@ class Player {
             // Edit this line to output the target position
             // and thrust (0 <= thrust <= 100)
             // i.e.: "x y thrust"
-            System.out.println(nextCheckpointX + " " + nextCheckpointY + " 50");
+
+            System.out.println(nextCheckpoint.toString(thrust));
 
 
+        }
+    }
+
+    private static class Point {
+        int x;
+        int y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        double getDistance(Point other) {
+            int x = Math.abs(this.x - other.x);
+            int y = Math.abs(this.y - other.y);
+            return Math.sqrt(x * x + y * y);
+        }
+
+        public String toString(int thrust) {
+            return String.format("%d %d %d", this.x, this.y, thrust);
         }
     }
 }
