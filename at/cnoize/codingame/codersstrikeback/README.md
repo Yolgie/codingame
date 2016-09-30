@@ -1,5 +1,5 @@
 # Coders Strike Back
-* CodinGame Bot Programming
+*CodinGame Bot Programming*
 
 Win the race.
 

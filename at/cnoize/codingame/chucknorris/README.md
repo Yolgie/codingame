@@ -1,5 +1,5 @@
 # Chuck Norris
-* Classic Puzzle Easy
+*Classic Puzzle Easy*
 
 ## The Goal
 Binary with 0 and 1 is good, but binary with only 0, or almost, is even better! Originally, this is a concept designed by Chuck Norris to send so called unary messages.
