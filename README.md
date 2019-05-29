@@ -19,3 +19,11 @@
 
 ### Bot Programming
 * [**Coders Strike Back**](at/cnoize/codingame/codersstrikeback/)
+
+# ToDo
+* Merge repo from the "The Accountant" hackathon
+* Merge repo from "Code of the rings"
+* Finish Reversing Challenge
+* Check private repos for other past challenges
+* Add old python solutions as well
+* Merge links to projects to common format
