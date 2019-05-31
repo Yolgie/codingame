@@ -6,6 +6,7 @@
 
 ### Classic Puzzles - Medium
 * [**There Is No Spoon, Episode 1**](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1) - [kotlin](src/main/kotlin/ThereIsNoSpoon.kt)
+* [**Mayan Calculation**](src/main/kotlin/MayanCalculation.md) - [kotlin](src/main/kotlin/MayanCalculation.kt)
 
 ### Classic Puzzles - Easy
 * [**Chuck Norris**](at/cnoize/codingame/chucknorris/)
