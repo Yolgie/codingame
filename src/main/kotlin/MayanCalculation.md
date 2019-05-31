@@ -12,7 +12,7 @@ Mayan numerical system contains 20 numerals like:
 
 | 0                                             | 1                                             | 2                                             | ...                                           |
 |:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|:--------------------------------------------- |
-| <code>.00.<br/>0..0<br/>.00.<br/>....<br/></code> | <code>0...<br/>....<br/>....<br/>....<br/></code> | <code>00..<br/>....<br/>....<br/>....<br/></code> |
+| <pre>.00.<br/>0..0<br/>.00.<br/>....<br/></pre> | <pre>0...<br/>....<br/>....<br/>....<br/></pre> | <pre>00..<br/>....<br/>....<br/>....<br/></pre> |
 
 Larger numbers are handled by just putting the digits below each other. 
 
