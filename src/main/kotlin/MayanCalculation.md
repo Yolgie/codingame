@@ -12,7 +12,7 @@ Mayan numerical system contains 20 numerals like:
 
 | 0                                             | 1                                             | 2                                             | ...                                           |
 |:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|:--------------------------------------------- |
-| <code>.00.<br>0..0<br>.00.<br>....<br></code> | <code>0...<br>....<br>....<br>....<br></code> | <code>00..<br>....<br>....<br>....<br></code> |
+| <code>.00.<br/>0..0<br/>.00.<br/>....<br/></code> | <code>0...<br/>....<br/>....<br/>....<br/></code> | <code>00..<br/>....<br/>....<br/>....<br/></code> |
 
 Larger numbers are handled by just putting the digits below each other. 
 
@@ -64,7 +64,7 @@ oo..
 ```
 
 ## Sources
-[kotlin:MayanCalculation.kt](src/main/kotlin/MayanCalculation.kt)
+Kotlin: [MayanCalculation.kt](MayanCalculation.kt) ([MayanCalculationTest.kt](../../test/kotlin/MayanCalculationTest.kt))
 
 ## URL
 <https://www.codingame.com/ide/puzzle/mayan-calculation>
