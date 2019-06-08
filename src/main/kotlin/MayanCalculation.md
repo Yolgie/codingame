@@ -64,7 +64,7 @@ oo..
 ```
 
 ## Sources
-Kotlin: [MayanCalculation.kt](MayanCalculation.kt) ([MayanCalculationTest.kt](../../test/kotlin/MayanCalculationTest.kt))
+Kotlin: [MayanCalculation.kt](MayanCalculation.kt) ([MayanCalculationTest.kt](../../../test/kotlin/MayanCalculationTest.kt))
 
 ## URL
 <https://www.codingame.com/ide/puzzle/mayan-calculation>
