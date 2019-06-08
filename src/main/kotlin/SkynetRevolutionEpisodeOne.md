@@ -80,7 +80,7 @@ Response
 **Success!**
 
 ## Sources
-Kotlin: [SkynetRevolution.kt](SkynetRevolution.kt) ([SkynetRevolutionTest.kt](../../../test/kotlin/SkynetRevolutionTest.kt))
+Kotlin: [SkynetRevolution.kt](SkynetRevolution.kt) ([SkynetRevolutionTest.kt](../../test/kotlin/SkynetRevolutionGraphLibraryTest.kt))
 
 ## URL
 <https://www.codingame.com/ide/puzzle/skynet-revolution-episode-1>
