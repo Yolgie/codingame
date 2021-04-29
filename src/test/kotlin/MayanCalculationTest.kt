@@ -54,13 +54,13 @@ internal class MayanCalculationTest {
     @Test
     fun testConvertDigitToInt() {
         assertEquals(BigInteger.ONE, mayanCalculation.game.alphabet.get(digitOne).value)
-        assertEquals(BigInteger.TWO, mayanCalculation.game.alphabet.get(digitTwo).value)
+        assertEquals(BigInteger.valueOf(2L), mayanCalculation.game.alphabet.get(digitTwo).value)
     }
 
     @Test
     fun testConvertIntToDigit() {
         assertEquals(digitOne, mayanCalculation.game.alphabet.get(BigInteger.ONE).digit)
-        assertEquals(digitTwo, mayanCalculation.game.alphabet.get(BigInteger.TWO).digit)
+        assertEquals(digitTwo, mayanCalculation.game.alphabet.get(BigInteger.valueOf(2L)).digit)
     }
 
     @Test

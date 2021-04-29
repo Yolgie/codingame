@@ -8,6 +8,7 @@
 * [**There Is No Spoon, Episode 1**](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1) - [kotlin](src/main/kotlin/ThereIsNoSpoon.kt)
 * [**Mayan Calculation**](src/main/kotlin/MayanCalculation.md) - [kotlin](src/main/kotlin/MayanCalculation.kt)
 * [**Skynet Revolution: Episode 1**](src/main/kotlin/SkynetRevolutionEpisodeOne.md) - [kotlin](src/main/kotlin/SkynetRevolution.kt)
+* [**Byte Pair Encoding**](src/main/kotlin/BytePairEncoding.md)(Weekly 17/2021) - [kotlin](src/main/kotlin/BytePairEncoding.kt)
 
 ### Classic Puzzles - Easy
 * [**Chuck Norris**](at/cnoize/codingame/chucknorris/)
