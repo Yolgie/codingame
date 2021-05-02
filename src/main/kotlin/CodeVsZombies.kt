@@ -74,7 +74,7 @@ class CodeVsZombies(val scanner: Scanner) {
                         distances.getFor(zombie, human) / 400 < (distances.getForPlayer(human) - 2000) / 1000
                     }"
                 )
-                distances.getFor(zombie, human) / 400 < (distances.getForPlayer(human) - 2000) / 1000
+                distances.getFor(zombie, human) / zombieStepSize < (distances.getForPlayer(human) - playerKillRange) / playerStepSize
             }
 
         System.err.println("all zombies $zombies")
@@ -87,7 +87,16 @@ class CodeVsZombies(val scanner: Scanner) {
             .keys.firstOrNull()
             ?: humans.minBy { human -> distances.getForPlayer(human) }
             ?: throw IllegalStateException()
-        System.err.println("going towards: $target")
+        System.err.println("going towards: $target (${distances.getForPlayer(target)}")
+        if (distances.getForPlayer(target) < zombieStepSize) {
+            // check if more points can be made by approaching zombies
+            val closeZombies = zombies.filter { zombie ->
+                distances.getForPlayer(zombie) < playerStepSize + playerKillRange
+            }
+            if (closeZombies.isNotEmpty()) {
+                return closeZombies.sortedByDescending(distances::getForPlayer).first().nextCoordinate
+            }
+        }
         return target.coordinate
     }
 
@@ -151,6 +160,12 @@ class CodeVsZombies(val scanner: Scanner) {
         fun getAllFor(target: Human) = distancesFromHumans[target] ?: throw IllegalStateException()
         fun getForPlayer(human: Human): Int = humanDistancesFromPlayer[human] ?: throw IllegalStateException()
         fun getForPlayer(zombie: Zombie): Int = getFor(zombie, player)
+    }
+
+    companion object {
+        const val playerStepSize = 1000
+        const val zombieStepSize = 400
+        const val playerKillRange = 2000
     }
 }
 
